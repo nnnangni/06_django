@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block body %}
+    {% for movie in movies %}
+        {% include 'movie/_movie.html' %}
+    {% endfor %}
+{% endblock %}
